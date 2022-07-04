@@ -13,10 +13,10 @@ import random
 
 
     
-path="C:/Users/adnan/Desktop/change daily/images/"
+path="C:/Users/user/Desktop/change daily/images/"
 files=os.listdir(path)
 d=random.choice(files)
-images = "C:/Users/adnan/Desktop/change daily/images/" + d
+images = "C:/Users/user/Desktop/change daily/images/" + d
 
 ctypes.windll.user32.SystemParametersInfoW(20, 0, images  , 0)
 
